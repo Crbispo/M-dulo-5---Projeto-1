@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #ba4444;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.studio-container{
+    width: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.Studio{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+header .container,
+section .container {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery-list img {
+    height: 10px;
+    margin-right: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery-list img:hover {
+    transform: scale(1.5);
+}
+
+section {
+    background-color: #000000;
+    color: #fff;
+    padding: 24px 0;
+}
+
+section h2,
+section h3 {
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+
+.gallery {
+    background-color: #000000;
+    color: #fff;
+    padding: 24px;
+}
+
+.gallery h3 {
+    margin-bottom: 16px;
+}
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.gallery-list img {
+    height: 50px;
+    margin-bottom: 16px;
+    transition: transform 0.3s;
+}
+
+.gallery-list img:hover {
+    transform: scale(5.5);
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#about {
+    background-color: #000000;
+    color: #fff;
+    padding: 24px 0;
+    text-align: center;
+}
+
+#about div {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+footer {
+    background-color: #273559;
+    color: #fff;
+    padding: 16px 0;
+}
